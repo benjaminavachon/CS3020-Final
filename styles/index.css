@@ -1,0 +1,100 @@
+*{
+  margin:auto;
+}
+
+html{
+  background-color: grey;
+}
+
+body{
+  background-color: grey;
+}
+
+.headbar{
+  background-color: #00587f;
+  color: white;
+  padding: 10px 16px;
+}
+
+.headbar header a{
+  color:white;
+  text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+  background-color: black;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+form{
+  width: 1280px;
+  margin: auto;
+}
+
+form .page-article{
+  width: 50%;
+  margin:auto;
+  background-color: #1a1a1b;
+  border-radius: 5px;
+}
+
+form .page-article h6{
+  padding: 3px;
+  padding-left: 3%;
+  color: #d6d9db;
+}
+
+form .page-article h4{
+  padding: 3px;
+  color: #d2d5d7;
+}
+
+form .page-article img{
+  max-width: 620px;
+  max-height: 360px;
+}
+
+.headbar a{
+  color: white;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.headbar a:hover{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(0,176,255);
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.create{
+  width: 1280px;
+}
+
+.create form{
+  width: 50%;
+  margin: auto;
+  background-color: #1a1a1b;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.create form button {
+  margin: auto;
+  color: #d2d5d7;
+  width:100%;
+  text-align: center;
+}
